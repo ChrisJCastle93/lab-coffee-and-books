@@ -1,0 +1,10 @@
+<form method="post" action="/places/{{place.id}}/edit">
+  <label for="name">Text</label>
+  <input type="text" name="name" id="name" placeholder="Place Name" value="{{place.name}}"/>
+  <label for="placeType">Select</label>
+  <select placeholder="Place Type" name="placeType">
+    <option value="coffee shop">coffee shop</option>
+    <option value="bookstore">bookstore</option>
+  </select>
+  <button type="submit">Submit Form</button>
+</form>
